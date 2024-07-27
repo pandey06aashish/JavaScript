@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coin-flip game</title>
+</head>
+<body>
+    <p>Coin Flip Game</p>
+    <button onclick="
+      let random_number=Math.random();
+      let computer_guesh;
+      if(random_number<0.5){
+        computer_guesh='head'
+      }
+      else{
+        computer_guesh='Tails'
+      }
+      let result='';
+      
+      computer_guesh=='head'?result='You Win': result='You Lose'
+
+      alert('You Choses Head and computer choses '+computer_guesh+' ,So'+result)
+    ">Head</button>
+    <button  onclick="
+    let random_number=Math.random();
+      let computer_guesh;
+      if(random_number<0.5){
+        computer_guesh='head'
+      }
+      else{
+        computer_guesh='Tails'
+      }
+      let result='';
+
+      computer_guesh=='Tails'? result='You Win':result='You Lose';
+      alert('You Choses Tails and computer choses '+computer_guesh+' ,So'+result)
+    "
+    >Tails</button>
+</body>
+</html>
